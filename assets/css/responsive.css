@@ -50,6 +50,15 @@
 #section5 .pDiv1 {
   padding: 40px 10px 0px 15px;
 }
+#section5 .contact-div {
+    position: absolute;
+    right: 0;
+    left: 0;
+  }
+#section5 .contact-submit{
+  margin: auto;
+  display: block;
+}
 footer {
     margin-top: 25%;
     height: auto;
