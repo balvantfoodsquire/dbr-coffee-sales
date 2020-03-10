@@ -1,10 +1,31 @@
  /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) { 
-.appImg{
+/*.appImg{
   display: none;
-  }
+  }*/
+.appImg .img1 {
+    position: relative;
+    top: -16px;
+    left: -6px;
+    width: 150px;
+}
+.appImg .img2 {
+    position: relative;
+    top: -10px;
+    left: 40px;
+    width: 150px;
+}
+.appImg .img3 {
+    position: absolute;
+    top: 0;
+    left: 90px;
+    width: 175px;
+}
 .logo {
     width: 90px;
+}
+.headercolor .logo{
+  width: 80px;
 }
 .banner{
   height: auto;
