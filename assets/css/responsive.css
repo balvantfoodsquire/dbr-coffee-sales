@@ -1,8 +1,19 @@
+ 
+
+@media (max-width: 320px) { 
+  #section3 p {
+    font-size: 16px !important;
+    margin-bottom: 0;
+    }
+  #section4 .ul-list2 ul li {
+    font-size: 15px !important;
+    line-height: normal;
+    padding: 5px 0 !important;
+}
+}
  /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) { 
-/*.appImg{
-  display: none;
-  }*/
+
 .appImg .img1 {
     position: relative;
     top: 0px;
@@ -10,9 +21,9 @@
     width: 150px;
 }
 .appImg .img2 {
-    position: relative;
+    position: absolute;
     top: 20px;
-    left: 40px;
+    left: 52%;
     width: 150px;
 }
 .appImg .img3 {
@@ -45,10 +56,17 @@
  #section3{
   height: auto;
   background-size: cover;
+      padding: 5% 0;
  }
  #section3 p {
-    font-size: 30px;
+    font-size: 18px;
     line-height: 50px;
+    margin-bottom: 0px;
+}
+#section3 p button {
+    font-size: 10px;
+    padding: 8px 14px;
+    margin-left: 2%;
 }
 #section4 .ul-list2 ul li {
     font-size: 20px;
@@ -58,6 +76,14 @@
 #section4 .key-title {
     font-size: 20px;
   }
+#section4 .media .yewllo-bullet {
+    width: .8em;
+    height: .8rem;
+    background-color: #FCC11A;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 12px;
+}
 #section4 .media .media-body p{
     font-size: 15px;
     line-height: 36px;
@@ -192,6 +218,12 @@ footer .mt-5, .my-5 {
 #section4 .key-title {
   font-size: 25px;
   }
+#section5 .pDiv {
+    padding: 70px 0px 50px 30px;
+}
+#section4 .media .yewllo-bullet {
+    margin-top: 15px;
+}
 /*#section4 .ul-list3 ul li {
     padding-left: 0em;
     color: #4A0E97;
