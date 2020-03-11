@@ -24,7 +24,7 @@
 	</nav>
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#contactForm">Contact</a>
+  <a href="#contactForm" class="js-anchor-link">Contact</a>
   <!-- <a href="#">Services</a>
   <a href="#">Clients</a>
   <a href="#">Contact</a> -->
@@ -237,6 +237,17 @@ $(window).scroll(function(){
     }
 });
 
+$(document).ready(function() {
+		$('.js-anchor-link').click(function(e){
+  e.preventDefault();
+  var target = $($(this).attr('href'));
+  if(target.length){
+    var scrollTo = target.offset().top;
+    $('body, html').animate({scrollTop: scrollTo+'px'}, 800);
+    document.getElementById("mySidenav").style.width = "0";
+  }
+});
+});
 
 </script>
 

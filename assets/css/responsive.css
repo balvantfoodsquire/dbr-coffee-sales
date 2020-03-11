@@ -95,9 +95,28 @@ footer .mt-5, .my-5 {
 
  /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) {
-/*.appImg{
-  display: none;
-  }*/
+.banner {
+    height: auto;
+    
+}
+.appImg .img1 {
+    position: relative;
+    top: -5px;
+    left: -40px;
+    width: 50%;
+  }
+.appImg .img2 {
+    position: absolute;
+    top: -5px;
+    left: 300px;
+    width: 50%;
+  }
+.appImg .img3 {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    width: 50%;
+  }
 }
 
  /*Medium devices (tablets, 768px and up)*/
@@ -172,7 +191,10 @@ footer .mt-5, .my-5 {
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199px) {
-
+.banner-title {
+    font-size: 41px;
+   
+}
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
