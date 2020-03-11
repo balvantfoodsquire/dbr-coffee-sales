@@ -58,7 +58,7 @@
 #section4 .key-title {
     font-size: 20px;
   }
-#section4 .ul-list3 ul li {
+#section4 .media .media-body p{
     font-size: 15px;
     line-height: 36px;
   }
@@ -116,6 +116,9 @@ footer .mt-5, .my-5 {
     top: 60px;
     left: 100px;
     width: 50%;
+  }
+  #section5 .hieght-303 {
+    height: 50px;
   }
 }
 
@@ -179,25 +182,36 @@ footer .mt-5, .my-5 {
     color: #4A0E97;
     padding: 10px 0;
 }
+#section4 .media .media-body p {
+    font-family: Roboto-Medium;
+    font-size: 20px;
+    line-height: normal;
+    color: #4A0E97;
+    padding: 10px 0;
+}
 #section4 .key-title {
   font-size: 25px;
   }
-#section4 .ul-list3 ul li {
+/*#section4 .ul-list3 ul li {
     padding-left: 0em;
     color: #4A0E97;
     font-size: 22px;
-  }
+  }*/
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199px) {
 .banner-title {
     font-size: 41px;
-   
+}
+#section2{
+  margin-top: 12%;
 }
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
-
+#section2{
+  margin-top: 10%;
+}
 }

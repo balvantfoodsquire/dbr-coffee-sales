@@ -377,5 +377,20 @@ footer .social-menu a {
     cursor: pointer;
 }
 
+#section4 .media .yewllo-bullet{
+   width: 1em;
+    height: 1em;
+    background-color: #FCC11A;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#section4 .media .media-body p{
+  padding-left: 0em;
+    color: #4A0E97;
+    font-size: 32px;
+    font-family: Roboto-Regular;
+    line-height: 54px;
+    margin-bottom: 0;
+}
 
- 
