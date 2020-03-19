@@ -52,13 +52,16 @@ animation: smoothScroll 1s forwards;
 }*/
 
 .banner{
-background-image: url('../images/Home_bg 1.png');
+background-image: url('../images/background_img.png');
 background-repeat: no-repeat;
-height: 600px;
+height: 650px;
 background-size: cover;
 }
+header .navbar{
+padding: 0rem 1rem;
+}
 #sidebarCollapse i{
-  color: #fcc23a;
+  color: #0F384D;
   font-size: 25px;
 }
 .logo{
@@ -115,11 +118,30 @@ background-size: cover;
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
+.navbar-dark .navbar-brand {
+    background-color: #0F384D;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.getStarted{
+  background-color: #F6750F;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    font-family: Montserrat-SemiBold;
+    padding: 15px;
+    float: right;
+    position: absolute;
+    right: 8%;
+    border-radius: 5px;
+}
 .banner-title{
   font-size: 50px;
-  color: #fff;
-  font-family: Montserrat-Regular;
+  color: #0F384D;
+  font-family: Montserrat-Bold;
   line-height: normal;
 }
 .banner-title span{
@@ -128,8 +150,8 @@ background-size: cover;
 .btn-learnmore{
   font-family: Montserrat-SemiBold;
   font-size: 17px;
-  color: #2B304B;
-  background-color: #FFC20E;
+  color: #fff;
+  background-color: #F6750F;
   border-radius: 6px;
   padding: 10px 20px; 
 }
@@ -137,13 +159,23 @@ background-size: cover;
 .injury-text{
  font-family: Montserrat-Medium;
   font-size: 20px; 
-  color: #FFFFFF;
+  color: #0F384D;
   margin-top: 50px;
 }
 .step-free{
   font-family: Montserrat-SemiBold;
   font-size: 23px; 
-  color: #FCC11A;
+  color: #0F384D;
+}
+.appImg .mobile1{
+  position: absolute;
+  top: -12%;
+  left: -10%;
+}
+.appImg .mobile2{
+  position: absolute;
+  top: 0%;
+  left: 50%;
 }
 .appImg .img1{
   position: absolute;
@@ -162,28 +194,33 @@ position: absolute;
 }
 
 #section2 .ul-list ul li{
-color: #4A0E97;
-font-family: Roboto-Medium;
-font-size: 35px;
-line-height: 54px;
+color: #0F384D;
+font-family: Montserrat-Regular;
+font-size: 20px;
+line-height: normal;
 padding: 20px 0px;
 width: 100%;
 }
-
-#section2 .ul-list ul li:nth-child(1) {
+#section2 .mobile3{
+  display: block;
+    margin: auto;
+    width: 65%;
+}
+/*#section2 .ul-list ul li:nth-child(1) {
   border-bottom: 1px solid #C1B9B9; 
 }
 
 #section2 .ul-list ul li:nth-child(2) {
   border-bottom: 1px solid #C1B9B9; 
-}
+}*/
 
 #section3{
-  background-image: url('../images/bg.png');
-  background-repeat: no-repeat;
-  height: 350px;
-  padding: 12% 0;
-  background-size:cover;
+    /*background-image: url(../images/bg.png); */*/
+    background-repeat: no-repeat;
+    /*height: 350px;*/
+    padding: 8% 0;
+    background-size: cover;
+    background-color: #0F384D;
 }
 #section3 p{
   color: #ffff;
@@ -199,37 +236,38 @@ width: 100%;
   font-family: Montserrat-SemiBold;
   font-size: 17px;
   line-height: normal;
-  color: #2B304B !important;
-  background-color: #FFC20E;
+  color: #fff !important;
+  background-color: #F6750F;
   border-radius: 6px;
-  border:none;
-  padding: 10px 20px;
+  border: none;
+  padding: 15px 20px;
   margin-left: 4%;
+}
 }
 
 #section4{
   padding: 
 }
 #section4 .ul-list2 ul li{
-font-family: Roboto-Medium;
-font-size: 32px;
-line-height: 50px;
-color: #4A0E97;
+font-family: Montserrat-Regular;
+font-size: 20px;
+line-height: 1.5;
+color: #0F384D;
 padding: 15px 0;
 }
 
 #section4 .btn-learnmore{
 font-family: Montserrat-SemiBold;
-  font-size: 17px;
-  color: #2B304B;
-  background-color: #FFC20E;
-  border-radius: 6px;
-  padding: 10px 20px; 
+font-size: 17px;
+color: #fff;
+background-color: #F6750F;
+border-radius: 6px;
+padding: 10px 20px;
 }
 #section4 .key-title{
-  font-family: Roboto-Bold;
-  color: #FCC11A;
-  font-size: 32px;
+  font-family: Montserrat-Bold;
+  color: #36B5CA;
+  font-size: 35px;
   line-height: 50px;
 }
 #section4 .ul-list3 ul{
@@ -258,7 +296,7 @@ font-family: Montserrat-SemiBold;
 }
 
 #section5 .cl-4 {
-    background-color: #20233b;
+        background-color: #0F384D;
 }
 #section5 .pDiv {
     padding: 70px 0px 50px 70px;
@@ -276,7 +314,7 @@ font-family: Montserrat-SemiBold;
 #section5 .line-8 {
     width: 40px;
     height: 5px;
-    background-color: #FFC20E;
+    background-color: #36B5CA;
 }
 #section5 .hieght-303 {
     height: 320px;
@@ -289,7 +327,7 @@ font-family: Montserrat-SemiBold;
     font-style: italic;
     line-height: 1.51;
     letter-spacing: normal;
-    color: #ffffff;
+    color: #D3EFF3;
     margin-bottom: 0;
 }
 #section5 .cl-8 {
@@ -333,9 +371,9 @@ font-family: Montserrat-SemiBold;
     right: 70px;
 }
 #section5 .contact-submit {
-    width: 180px;
+   width: 180px;
     height: 54px;
-    background-color: #FFC20E;
+    background-color: #F6750F;
     font-family: Montserrat-SemiBold;
     font-size: 17px;
     font-weight: 600;
@@ -343,7 +381,7 @@ font-family: Montserrat-SemiBold;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: #000000;
+    color: #FFFFFF;
     border: 0 !important;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -352,21 +390,21 @@ font-family: Montserrat-SemiBold;
 
 footer {
   margin-top: 10%;
-  background-color: #2C235A;
-  height: 286px;
-  padding:2%;
+    background-color: #0F384D;
+    height: 286px;
+    padding: 2%;
 }
 footer .copyright{
   font-family: Montserrat-Regular;
   font-size: 15px;
-  color: #C4B0DF;
+  color: #D3EFF3;
 }
 footer .social-menu {
     float: right;
 }
 footer .social-menu a {
-    color: #888ca8;
-    border: 1px solid #888ca8;
+    color: #89dde3;
+    border: 1px solid #89dde3;
     border-radius: 50%;
     width: 33px;
     display: inline-block;
@@ -380,17 +418,22 @@ footer .social-menu a {
 #section4 .media .yewllo-bullet{
    width: 1em;
     height: 1em;
-    background-color: #FCC11A;
+    background-color: #36b5ca;
     border-radius: 50%;
     margin-right: 20px;
     margin-top: 20px;
 }
 #section4 .media .media-body p{
-  padding-left: 0em;
-    color: #4A0E97;
-    font-size: 32px;
-    font-family: Roboto-Regular;
+ padding-left: 0em;
+    color: #0F384D;
+    font-size: 25px;
+    font-family: Montserrat-Regular;
     line-height: 54px;
     margin-bottom: 0;
+}
+#section4 .mobile4{
+margin: 15% auto;
+    display: block;
+    width: 80%;
 }
 
