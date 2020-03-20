@@ -140,9 +140,24 @@ footer .mt-5, .my-5 {
 
  /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767px) {
+.banner-title {
+    font-size: 28px;
+}
 .banner {
-    height: auto;
+    height: 650px;
     
+}
+.appImg .mobile1 {
+    position: absolute;
+    top: -12%;
+    left: -10%;
+    width: 36%;
+}
+.appImg .mobile2 {
+    position: absolute;
+    top: 0%;
+    left: 33%;
+    width: 36%;
 }
 .appImg .img1 {
     position: relative;
@@ -172,6 +187,7 @@ footer .mt-5, .my-5 {
 .logo {
     width: 120px;
 }
+
 .banner {
     background-image: url(../images/Home_bg 1.png);
     background-repeat: no-repeat;
@@ -201,6 +217,7 @@ footer .mt-5, .my-5 {
     left: 100px;
     width: 50%;
   }
+
 #section2 .ul-list{
   margin-top: 20px;
 }
@@ -263,6 +280,11 @@ footer .mt-5, .my-5 {
 }
 #section2{
   margin-top: 12%;
+}
+.appImg .mobile1 {
+    position: absolute;
+    top: -12%;
+    left: -5%;
 }
 }
 
